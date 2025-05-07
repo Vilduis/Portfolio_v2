@@ -41,8 +41,8 @@ export default function About() {
               </div>
 
               {/* Decorative elements — mueve este bloque dentro del contenedor relativo */}
-              <div className="absolute -bottom-6 -right-6 w-full h-full border-2 border-indigo-500/30 rounded-2xl z-0"></div>
-              <div className="absolute -top-6 -left-6 w-full h-full border-2 border-pink-500/30 rounded-2xl z-0"></div>
+              <div className="absolute -bottom-6 -right-6 w-full h-full border-2 border-indigo-500/30 rounded-2xl z-0 hidden sm:block"></div>
+              <div className="absolute -top-6 -left-6 w-full h-full border-2 border-pink-500/30 rounded-2xl z-0 hidden sm:block"></div>
             </motion.div>
 
             <motion.div
