@@ -162,11 +162,11 @@ const Project = () => {
   );
 
   return (
-    <section className="w-full text-white py-20" id="projects">
+    <section className="w-full text-white py-28" id="projects">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 text-transparent bg-clip-text mb-4 ">
+            <h2 className="text-4xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 text-transparent bg-clip-text mb-2 ">
               Proyectos y Servicios
             </h2>
             <p className="text-gray-400 text-md">

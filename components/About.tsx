@@ -77,8 +77,8 @@ export default function About() {
                     className="text-indigo-400 mt-1 flex-shrink-0"
                   />
                   <p className="text-gray-300">
-                    Busco prácticas profesionales para aplicar mis conocimientos
-                    y potenciar mi crecimiento técnico.
+                    Busco prácticas preprofesionales para aplicar mis
+                    conocimientos y potenciar mi crecimiento técnico.
                   </p>
                 </div>
                 <div className="flex items-start">

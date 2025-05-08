@@ -3,7 +3,14 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import { ArrowDown, Github, Linkedin, Mail, Download } from "lucide-react";
+import {
+  ArrowDown,
+  Github,
+  Linkedin,
+  Mail,
+  Download,
+  ArrowRight,
+} from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -36,7 +43,7 @@ export default function Hero() {
     <section className="py-32 min-h-screen flex flex-col justify-center relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Tech stack floating icons */}
-        <div className="absolute left-10 top-1/4 hidden lg:block">
+        <div className="absolute left-20  top-1/4 hidden  lg:block">
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -62,7 +69,7 @@ export default function Hero() {
         </div>
 
         {/* Right side tech stack */}
-        <div className="absolute right-10 top-1/3 hidden lg:block">
+        <div className="absolute right-20 top-1/3 hidden  lg:block">
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -120,32 +127,37 @@ export default function Hero() {
               </p>
 
               <div className="flex flex-wrap gap-4">
-                <Button className="bg-gradient bg-gradient-hover">
-                  <Link href="#contact" className="flex items-center gap-2">
-                    <Mail size={18} />
-                    Contáctame
-                  </Link>
-                </Button>
-
                 <Button
                   variant="outline"
                   className="text-white border-white/10 bg-white/5 backdrop-blur-md hover:bg-white/80"
                 >
-                  <Download size={18} className="mr-2" />
-                  Descargar CV
+                  <Link
+                    href="/SANDOVAL_CV.pdf"
+                    download="CV_Luis_Sandoval.pdf"
+                    className="flex items-center gap-2"
+                  >
+                    <Download size={18} className="mr-2" />
+                    Descargar CV
+                  </Link>
+                </Button>
+                <Button className="bg-gradient-to-r from-blue-400 to-purple-400 text-white hover:bg-gradient-to-l">
+                  <Link href="/project" className="flex items-center gap-2">
+                    Ver Proyectos
+                    <ArrowRight size={18} />
+                  </Link>
                 </Button>
               </div>
 
               <div className="flex items-center gap-6 pt-4">
                 <Link
-                  href="https://linkedin.com/in/vilder-luis-sandoval-verde-19230b305"
+                  href="https://www.linkedin.com/in/vilder-luis-sandoval-verde-19230b305/"
                   target="_blank"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   <Linkedin size={22} />
                 </Link>
                 <Link
-                  href="https://github.com"
+                  href="https://github.com/Vilduis"
                   target="_blank"
                   className="text-gray-400 hover:text-white transition-colors"
                 >

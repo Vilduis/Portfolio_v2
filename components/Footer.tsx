@@ -30,7 +30,7 @@ export default function Footer() {
               <Linkedin size={20} />
             </Link>
             <Link
-              href="https://github.com"
+              href="https://github.com/Vilduis"
               target="_blank"
               className="text-gray-400 hover:text-indigo-400 transition-colors"
               aria-label="GitHub"
