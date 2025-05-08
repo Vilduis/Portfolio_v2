@@ -20,7 +20,7 @@ export default function Experience() {
         transition={{ duration: 0.5 }}
         variants={fadeInUp}
       >
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-5xl mx-auto">
           <Card className="bg-white/5 backdrop-blur-lg border border-white/10 shadow-xl mb-8 overflow-hidden transition-all duration-300 hover:shadow-lg hover:shadow-indigo-500/10 hover:-translate-y-1">
             <CardHeader>
               <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-4">

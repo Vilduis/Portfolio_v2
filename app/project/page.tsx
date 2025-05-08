@@ -1,10 +1,10 @@
 import React from "react";
+import Project from "@/components/Project";
 
 const Projects = () => {
   return (
-    <div className="text-white p-8">
-      <h1 className="text-3xl font-bold mb-4">Proyectos</h1>
-      <p>Contenido de la página de proyectos.</p>
+    <div>
+      <Project />
     </div>
   );
 };
