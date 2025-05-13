@@ -3,7 +3,7 @@ import RidenOn from "../assets/RidenOn.png";
 import Calculator from "../assets/Calculator.png";
 import UniTrack from "../assets/UniTrack.png";
 import OrganAlzer from "../assets/OrganAlzer.png";
-import Portfolio from "../assets/Portfolio.png";
+import Portfolio1 from "../assets/Portfolio1.png";
 import ContigoVoy from "../assets/ContigoVoy.png";
 import AsdenPeru from "../assets/AsdenPeru.png";
 import NovaTech from "../assets/NovaTech.png";
@@ -33,11 +33,11 @@ const ProjectsOwn = [
     id: 1,
     name: "Portfolio",
     technologies: ["Nextjs", "Tailwind", "TypeScript"],
-    image: Portfolio,
+    image: Portfolio1,
     description:
       "Mi portafolio personal construido con Next.js, Tailwind CSS, TypeScript y Framer Motion.",
-    github: "https://github.com/SandovalCoder/Portfolio",
-    demo: "https://sandovalcoder-portfolio.vercel.app/",
+    github: "https://github.com/Vilduis/Portfolio_v2",
+    demo: "https://vilduis.netlify.app/",
   },
   {
     id: 2,
@@ -59,7 +59,7 @@ const ProjectsOwn = [
   {
     id: 3,
     name: "NovaTech",
-    technologies: ["Vite", "TypeScript", "Tailwind"],
+    technologies: ["React", "Vite", "TypeScript", "Tailwind"],
     image: NovaTech,
     description:
       "NovaTech es una aplicación de comercio electrónico moderna dedicada a la venta de tecnologías de punta: smartphones, laptops, televisores y más.",
