@@ -43,7 +43,7 @@ export default function Hero() {
     <section className="py-32 min-h-screen flex flex-col justify-center relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Tech stack floating icons */}
-        <div className="absolute left-20  top-1/4 hidden  lg:block">
+        <div className="absolute left-15  top-1/4 hidden  lg:block">
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -69,7 +69,7 @@ export default function Hero() {
         </div>
 
         {/* Right side tech stack */}
-        <div className="absolute right-20 top-1/3 hidden  lg:block">
+        <div className="absolute right-15 top-1/3 hidden  lg:block">
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -132,8 +132,8 @@ export default function Hero() {
                   className="text-white border-white/10 bg-white/5 backdrop-blur-md hover:bg-white/80"
                 >
                   <Link
-                    href="/SANDOVAL_CV.pdf"
-                    download="CV_Luis_Sandoval.pdf"
+                    href="/CV_Sandoval_Stack.pdf"
+                    download="CV_Sandoval_Stack"
                     className="flex items-center gap-2"
                   >
                     <Download size={18} className="mr-2" />
